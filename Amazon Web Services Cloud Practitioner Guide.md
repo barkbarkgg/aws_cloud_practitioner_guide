@@ -12,7 +12,7 @@
     - $100 USD
     - 90 minutes
     - 65 questions
-    - passing >= 70%
+    - passing is at least 70%
     - valid for 3 years
 
 | Content      | Percentage |
@@ -69,6 +69,39 @@ Cloud computing is the technology of using a network of remote servers to store/
   - Governments/Legacy enterprise
   - Sensitive data
   - Heavily regulated industries
+
+### Common Acronyms (Initialisms)
+| Acronym | Service |
+|--|--|
+|IAM|Identity & Access Management|
+|S3|Simple Storage Service
+|SWF | Simple Workflow Service
+|SNS | Simple Notification Service
+|SQS | Simple Queue Service
+|SES | Simple Email Service
+|SSM | Simple Systems Manager
+|RDS | Relational Database Service
+|VPC | Virtual Private Cloud
+|CFN | CloudFormation
+|WAF | Web Application Firewall
+|MQ | Amazon Active MQ
+|ASG | Auto Scaling Group
+| TAM | Technical Account Manager
+| ELB | Elastic Load Balancer
+| ALB | Application Load Balancer
+| NLB | Network Load Balancer
+| EC2 | Elastic Cloud Compute
+| ECS | Elastic Container Service
+| ECR | Elastic Container Repository
+| EBS | Elastic Block Storage
+| EFS | Elastic File Storage
+| EMR | Elastic MapReduce
+| EB | Elastic Beanstalk
+| ES | ElasticSearch
+| EKS | Elastic Kubernetes Service
+| MKS | Managed Kafka Service
+| IoT | Internet of Things
+| RI | Reserved Instances
 
 ## AWS Global Infrastructure 
 - 22 Regions, 69 Availability Zones (AZs), many Edge locations
@@ -288,39 +321,6 @@ Cloud computing is the technology of using a network of remote servers to store/
     - Ex - take snapshot of EC2 instance per hour
   - Alarms - notifications based on metrics
   - Dashboard - visualize metrics with graphs
-
-### Common Acronyms (Initialisms)
-| Acronym | Service |
-|--|--|
-|IAM|Identity & Access Management|
-|S3|Simple Storage Service
-|SWF | Simple Workflow Service
-|SNS | Simple Notification Service
-|SQS | Simple Queue Service
-|SES | Simple Email Service
-|SSM | Simple Systems Manager
-|RDS | Relational Database Service
-|VPC | Virtual Private Cloud
-|CFN | CloudFormation
-|WAF | Web Application Firewall
-|MQ | Amazon Active MQ
-|ASG | Auto Scaling Group
-| TAM | Technical Account Manager
-| ELB | Elastic Load Balancer
-| ALB | Application Load Balancer
-| NLB | Network Load Balancer
-| EC2 | Elastic Cloud Compute
-| ECS | Elastic Container Service
-| ECR | Elastic Container Repository
-| EBS | Elastic Block Storage
-| EFS | Elastic File Storage
-| EMR | Elastic MapReduce
-| EB | Elastic Beanstalk
-| ES | ElasticSearch
-| EKS | Elastic Kubernetes Service
-| MKS | Managed Kafka Service
-| IoT | Internet of Things
-| RI | Reserved Instances
 
 ## Security
 ### Shared Responsibility Model
