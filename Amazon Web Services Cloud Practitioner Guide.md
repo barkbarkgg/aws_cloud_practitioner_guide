@@ -1,7 +1,7 @@
 # Amazon Web Services Cloud Practitioner Cheat Sheet
 
 - Date: December 2021
-- Purpose: To help you pass the AWS Cloud Practitioner Exam!
+- Purpose: To help you pass the AWS Cloud Practitioner Exam! This document is a *supplement* to other materials to prepare for the Cloud Practitioner Exam; it is *not* the only material you should look at. The intended use of this document is to look over the day of and leading up to taking the exam, just as a recap of what you have learned. 
 
 ## About the exam
 - AWS foundational knowledge (i.e. can poke around the AWS console)
@@ -191,7 +191,7 @@ Cloud computing is the technology of using a network of remote servers to store/
 - one master account can pay charges incurred by member accounts
 
 ### Consolidated Billing Volume Discounts
-
+- *Note: These are hyptothetical numbers, and are not reflective of AWS's actual charge for storage.*
 - Suppose Odo has 4 terabytes (4 TB) and Dax has 8 TB.
 - | Data Limit      | Cost ($/GB) |
     | ----------- | ----------- |
