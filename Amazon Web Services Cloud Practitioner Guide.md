@@ -418,3 +418,38 @@ Cloud computing is the technology of using a network of remote servers to store/
 - lets you establish secure/private tunnel from network/device to AWS
 - site-to-site - connect on-premises to AWS VPC
 - client - connect users to AWS or on-premises networks
+
+## AWS Well-Architected Framework
+From AWS's Well-Architected [documentation][1]:
+> The AWS Well-Architected Framework documents a set of foundational questions that allow you to understand if a specific architecture aligns well with cloud best practices.
+
+### Pillars of the Well-Architected Framework
+|Name|Description|
+|-|-|
+|Operational Excellence|The ability to support development and run workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver business value.|
+|Security|The security pillar describes how to take advantage of cloud technologies to protect data, systems, and assets in a way that can improve your security posture.|
+|Reliability|The reliability pillar encompasses the ability of a workload to perform its intended function correctly and consistently when it’s expected to. This includes the ability to operate and test the workload through its total lifecycle. This paper provides in-depth, best practice guidance for implementing reliable workloads on AWS.|
+|Performance Efficiency|The ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve.|
+|Cost Optimization|The ability to run systems to deliver business value at the lowest price point.|
+|Sustainability|The ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.|
+
+### Terms
+|Term|Definition|
+|-|-|
+|Component|the code, configuration, and AWS Resources that together deliver against a requirement <br> often the unit of technical ownership, and is decoupled from other components|
+|Workload|a set of components that together deliver business value <br> usually the technology level at which business and technology leaders communicate|
+|Architecture|how components work together in a workload<br>architecture diagrams often focus on how components communicate and interact|
+|Milestones|key changes in your architecture as it evolves through the product lifestyle|
+|Technology portfolio|collection of workloads that are required for the business to operate|x
+
+### General Design Principles
+|Principle|Description|
+|-|-|
+|Stop guessing your capacity needs.|If you make a poor capacity decision when deploying a workload, you might end up sitting on expensive idle resources or dealing with the performance implications of limited capacity. With cloud computing, these problems can go away. You can use as much or as little capacity as you need, and scale up and down automatically.|
+|Test systems at production scale.|In the cloud, you can create a production-scale test environment on demand, complete your testing, and then decommission the resources. Because you only pay for the test environment when it's running, you can simulate your live environment for a fraction of the cost of testing on premises.|
+|Automate to make architectural experimentation easier.|Automation allows you to create and replicate your workloads at low cost and avoid the expense of manual effort. You can track changes to your automation, audit the impact, and revert to previous parameters when necessary.|
+|Allow for evolutionary architectures.|In a traditional environment, architectural decisions are often implemented as static, onetime events, with a few major versions of a system during its lifetime. As a business and its context continue to evolve, these initial decisions might hinder the system's ability to deliver changing business requirements. In the cloud, the capability to automate and test on demand lowers the risk of impact from design changes. This allows systems to evolve over time so that businesses can take advantage of innovations as a standard practice.|
+|Drive architectures using data.|In the cloud, you can collect data on how your architectural choices affect the behavior of your workload. This lets you make fact-based decisions on how to improve your workload. Your cloud infrastructure is code, so you can use that data to inform your architecture choices and improvements over time.|
+|Improve through game days.|Test how your architecture and processes perform by regularly scheduling game days to simulate events in production. This will help you understand where improvements can be made and can help develop organizational experience in dealing with events.|
+
+[1]: https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html
