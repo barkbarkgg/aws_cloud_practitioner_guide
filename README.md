@@ -1,3 +1,11 @@
+Approved for Public Release; Distribution Unlimited. Public Release Case Number 21-4011
+
+©2022 The MITRE Corporation. ALL RIGHTS RESERVED.
+
+The author's affiliation with The MITRE Corporation is provided for identification purposes only, and is not intended to convey or imply MITRE's concurrence with, or support for, the positions, opinions, or viewpoints expressed by the author.
+
+This guide is based on material from [Free Code Camp's Cloud Practitioner Guide] https://www.youtube.com/watch?v=3hLmDS179YE. Big thanks to Free Code Camp!
+
 # Amazon Web Services Cloud Practitioner Cheat Sheet
 
 - Date: December 2021
@@ -336,7 +344,7 @@ Cloud computing is the technology of using a network of remote servers to store/
 
 ### AWS Compliance Programs
 - compliance programs - set of internal policies/procedures to comply with laws/rules/regulations or to uphold business reputation
-- Ex - HIPAA
+- HIPAA is 1 example
 
 ### AWS Artifact
 - free portal for access to AWS's compliance reports
