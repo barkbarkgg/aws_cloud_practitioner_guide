@@ -4,7 +4,7 @@ Approved for Public Release; Distribution Unlimited. Public Release Case Number 
 
 The author's affiliation with The MITRE Corporation is provided for identification purposes only, and is not intended to convey or imply MITRE's concurrence with, or support for, the positions, opinions, or viewpoints expressed by the author.
 
-This guide is based on material from [Free Code Camp's Cloud Practitioner Guide] https://www.youtube.com/watch?v=3hLmDS179YE. Big thanks to Free Code Camp!
+This guide is based on material from [Free Code Camp's Cloud Practitioner Guide](https://www.youtube.com/watch?v=3hLmDS179YE). Big thanks to Free Code Camp!
 
 # Amazon Web Services Cloud Practitioner Cheat Sheet
 
